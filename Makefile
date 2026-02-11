@@ -39,7 +39,7 @@ $(OBJ_DIR)/%.o: %.c
 	$(CC) $(CFLAGS) -c -o $@ $^
 
 # Phonies
-.PHONY: all clean flash
+.PHONY: all clean 
 
 all: $(TARGET)
 

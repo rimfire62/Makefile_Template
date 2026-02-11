@@ -1,0 +1,6 @@
+# ignore compliled files
+*.o
+*.exe
+*.out
+build/
+
