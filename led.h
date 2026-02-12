@@ -1,5 +1,5 @@
-#define AVRPORTB *((volatile byte*) 0x25)
-#define AVRDDRB *((volatile byte*) 0x24)
+#define AVRPORTB *((volatile char*) 0x25)
+#define AVRDDRB *((volatile char*) 0x24)
 
 void led_init(void);
 void led_toggle(void);
