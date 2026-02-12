@@ -3,4 +3,6 @@
 *.exe
 *.out
 build/
+gitkey*
+
 
