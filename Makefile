@@ -45,7 +45,7 @@ all: $(TARGET)
 
 flash:
 	avr-objcopy -O ihex $(TARGET).elf $(TARGET).hex
-	avr-size --formnat=avr --mcu=$(DEVICE) $(TARGET).elf
+	avr-size --format=avr --mcu=$(DEVICE) $(TARGET).elf
 	sudo avrdude -V -F -c usbasp -p m328p -U flash:w:$(TARGET).hex
 
 clean:
